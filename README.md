@@ -26,16 +26,16 @@ This project is to train a model to identify Indian dance form and predict on te
 - changed last dense layer with classes 8 instead of 1000 
 - Classifier part of model as below
 -   (classifier): Sequential(  <br />
-      (0): Linear(in_features=25088, out_features=4096, bias=True) <br />
-      (1): ReLU(inplace=True) <br />
-      (2): Dropout(p=0.5, inplace=False) <br />
-      (3): Linear(in_features=4096, out_features=4096, bias=True) <br />
-      (4): ReLU(inplace=True) <br />
-      (5): Dropout(p=0.5, inplace=False) <br />
-      (6): Linear(in_features=4096, out_features=8, bias=True) <br />
-    ) <br />
+        (0): Linear(in_features=25088, out_features=4096, bias=True) <br />
+        (1): ReLU(inplace=True) <br />
+        (2): Dropout(p=0.5, inplace=False) <br />
+        (3): Linear(in_features=4096, out_features=4096, bias=True) <br />
+        (4): ReLU(inplace=True) <br />
+        (5): Dropout(p=0.5, inplace=False) <br />
+        (6): Linear(in_features=4096, out_features=8, bias=True) <br />
+        ) <br />
     
- # Algorithm
+ # Algorithm and functions used in training
  - Evaluation metric used - f1 score
  - Loss function used - crossentropy loss
  - Optimizatino algorithm used - Adam optimization
