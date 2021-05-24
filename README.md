@@ -1,5 +1,5 @@
 # Deep-Learning-Identify-dance-form
-This project is to train a model to identify Indian dance form and predict on test data
+This project is to build a deep learning model that can help classify these images into eight categories of Indian classical dance.
 
 # Data Description
 - Train dataset - 364 images
