@@ -1,6 +1,11 @@
 # Deep-Learning-Identify-dance-form
 This project is to build a deep learning model that can help classify these images into eight categories of Indian classical dance.
 
+# Note
+open "https://nbviewer.jupyter.org/" and paste the notebook link. this is
+an independent tool that may work when you are facing any issue with opening notebook in github.
+Notebook link for this project - https://github.com/iqbal-sk/Deep-Learning-Identify-dance-form/blob/main/Identify_dance_form.ipynb
+
 # Data Description
 - Train dataset - 364 images
 - Test dataset - 156 images
